@@ -2,14 +2,13 @@ import { createSlice,nanoid } from "@reduxjs/toolkit";
 
 
 
-//this is state which is Object
 const initialState = {
  todos:[{ id:1, text: 'hello' }]  
 }
 
 
-//Slice is nothing just huge virson of reducers
-//An action is an object that describes what changes need to be made to the state of your application. It sends data from your application to the Redux store and serves as the only way to update the store.
+// Slice is nothing just huge virson of reducers
+// An action is an object that describes what changes need to be made to the state of your application. It sends data from your application to the Redux store and serves as the only way to update the store.
 
 
 
